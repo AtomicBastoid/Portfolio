@@ -251,7 +251,7 @@ header {
 /* Footer Section Rules */
 
 footer {
-    background-color: rgb(21, 21, 21);
+    background-color: gray;
     height: 75vh;
 
 }
