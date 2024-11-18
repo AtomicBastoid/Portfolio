@@ -1,0 +1,257 @@
+/* Scroll Bar Rules */
+::-webkit-scrollbar {
+width: 12px; 
+height: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+background-color: orange;  
+}
+
+::-webkit-scrollbar-track {
+background-color: #00000020; 
+}
+
+/* Body Rules */
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0px
+}
+
+/* Navbar Rules */
+header {
+    left: 50%;
+    transform: translate(-50%, 30%);
+    position: absolute;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+.navbar ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    background-color: rgba(92, 146, 203, 0.5);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+       
+}
+
+.navbar li {
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.navbar li:last-child {
+    padding-right: 0px;
+}
+
+.navbar a {
+    text-decoration: underline;
+    text-decoration-color: transparent; 
+    transition: text-decoration-color 0.3s ease, color 0.3s ease;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    text-decoration-color: #ffcc00;
+    color: #ffcc00;
+}
+
+/* Home Section Rules */
+.home {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100vh;
+     
+}
+
+.home div:first-child {
+    align-content: center;
+    margin-left: 40px;
+}
+
+.home div:first-child img {
+    position: relative;
+    margin-top: -300px;
+    width: 600px;
+    height: 500px;
+    z-index: 1;
+}
+
+.main-heading {
+    position: relative;
+    font-size: 75px; 
+    color: rgb(255, 255, 255); 
+    margin: 0; 
+    z-index: 2;
+}
+
+.sub-heading {
+    font-size: 24px; 
+    color: whitesmoke; 
+    margin: 0; 
+}
+
+.home div:last-child {
+    justify-self: end;
+    align-self: center;
+    margin-right: 40px;
+}
+
+.home div:last-child img {
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
+
+/* About Section Rules */
+.about {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.about-heading {
+    color: orange;
+    justify-items: center;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.about-text {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Skills Section Rules */
+.skills {
+    display: grid;
+    margin-bottom: 50px;
+    height: 100vh;
+}
+
+.skills-heading {
+    color: orange;
+    justify-items: center;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.skills-body {
+    display: inline-flex;
+    flex-direction: row;
+    justify-self: center;
+
+}
+
+.skills-body div {
+    display: grid;
+    justify-self: center;
+    flex-direction: column;
+    margin: 0px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 0px 40px;
+    height: fit-content;
+    
+}
+
+.skills-body div:hover {
+    transform: translateY(-20px); 
+    box-shadow: 0 10px 20px rgba(218, 218, 218, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skills-body h3 {
+    color:black;
+    justify-self: center;
+}
+
+.skills-body img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* Services Section Rules */
+.services {
+    display: grid;
+    margin-bottom: 50px;
+    height: 100vh;
+}
+
+.services-heading {
+    color: orange;
+    justify-items: center;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.services-body {
+    display: inline-flex;
+    flex-direction: row;
+    justify-self: center;
+
+}
+
+.services-body div {
+    display: grid;
+    justify-self: center;
+    flex-direction: column;
+    margin: 0px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 0px 40px;
+    height: fit-content;
+    
+}
+
+.services-body div:hover {
+    transform: translateY(-20px); 
+    box-shadow: 0 10px 20px rgba(218, 218, 218, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.services-body h3 {
+    color:black;
+    justify-self: center;
+}
+
+.services-body img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* Contact Section Rules */
+
+
+/* Footer Section Rules */
+
+footer {
+    background-color: gray;
+    height: 75vh;
+
+}
