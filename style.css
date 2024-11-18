@@ -251,7 +251,33 @@ header {
 /* Footer Section Rules */
 
 footer {
-    background-color: gray;
-    height: 75vh;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    overflow-y: hidden;
+    margin: 0;
 
+}
+
+.footer-heading {
+    color: orange;
+    justify-items: center;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.footer-img img {
+    width: 1300px;
+    margin-bottom: -120px; 
+}
+
+.footer-email {
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.footer-social-icons a {
+    padding: 0px 10px;
+    text-decoration: none;
 }
