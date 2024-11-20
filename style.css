@@ -16,7 +16,7 @@ background-color: #00000020;
 body {
     background-color: rgb(20, 20, 20);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px 0px
+    margin: 0px 0px;
 }
 
 /* Navbar Rules */
@@ -26,8 +26,9 @@ header {
     z-index: 3;
     width: 100vw;
     justify-items: center;
-    transition: ;
-    padding: 10px 0px;
+    margin-top: 0px;
+    background-color: rgb(20, 20, 20);
+    transition: background-color 0.4s ease-in-out;
 }
 
 .scrolled {
@@ -54,6 +55,7 @@ header {
     background-color: rgba(92, 146, 203, 0.5);
     border: 2px solid rgb(255, 255, 255);
     padding: 10px 20px 10px 20px;
+    transition: padding 0.4s ease-in-out;
     border-radius: 30px;
        
 }
@@ -73,6 +75,7 @@ header {
     transition: text-decoration-color 0.3s ease, color 0.3s ease;
     color: whitesmoke;
     font-size: 20px;
+    transition: font-size 0.4s ease-in-out;
 }
 
 .navbar a:hover {
