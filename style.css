@@ -419,13 +419,108 @@ header {
 /* Footer Section Rules */
 
 footer {
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     justify-items: center;
     align-items: end;
     overflow-y: hidden;
     margin: 0;
 
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-form-title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-weight: bolder;
+    margin: 0px 0px;
+}
+
+.contact-form-title p b {
+    margin: 0px 0px;
+    font-size: 1.65rem;
+    background-image: linear-gradient(to right, purple, pink);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1px;
+}
+.contact-form-title p {
+    margin: 0px 0px;
+}
+
+.contact-form-subheading {
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 1.05rem;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.contact-form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 50px;    
+}
+
+.contact-input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: gray;
+    border-radius: 50px;
+}
+
+.contact-input:focus {
+    border: 2px solid purple;
+}
+
+.contact-input::placeholder {
+    color: grey;
+}
+
+.contact-form-body textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-form-submit-button {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, orange,red);
+    font-weight: bold;
+    font-size: 1.2rem;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact-form-submit-button:hover {
+    background: black;
+    color:whitesmoke;
+    border: 1px solid white;
+    transition: border 200ms ease-in-out;
+}
+
+.contact-img img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.result {
+    color: whitesmoke;
 }
 
 .footer-heading {
@@ -439,11 +534,6 @@ footer {
     width: 1300px;
     margin-bottom: -120px; 
     text-decoration: none;
-}
-
-.footer-email {
-    color: whitesmoke;
-    font-size: 22px;
 }
 
 .footer-social-icons a {

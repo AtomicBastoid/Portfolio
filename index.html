@@ -153,10 +153,34 @@
     <!-- Footer Section  -->
     <footer id="Contact">
         <div class="footer-heading">
-            <h2>Contact Me</h2>
+            <h2></h2>
         </div>
-        <div class="footer-email">
-            <h3>Email: keshwanieishal001@gmail.com | keshwanieishal@haeztec.com</h3>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/maneeyew" method="POST" id="form">
+                    <div class="contact-form-title">
+                        <p><b>Get in touch</b></p>
+                        <p class="contact-form-subheading">Let’s turn ideas into reality—drop <br> your details, and I’ll get back to you! 🚀</p>
+                    </div>
+                    <div class="contact-form-body">
+
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                        <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+                        <input type="hidden" name="access_key" value="74c6953e-6c9b-4e2b-a538-9bbf6045d319">
+                        <input type="text" name="Name" placeholder="Your Name" class="contact-input" required>
+                        <input type="email" name="Email" placeholder="Your Email" class="contact-input" required>
+                        <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+                        <button class="contact-form-submit-button" type="submit">Send</button>
+
+                        <div id="result" class="result"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-img">
+                <img src="assests/contact-us.png" alt="image">
+            </div>
         </div>
         <div class="footer-social-icons">
             <!-- <a href="https://facebook.com" target="_blank" aria-label="Facebook">
