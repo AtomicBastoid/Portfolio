@@ -59,12 +59,12 @@
     <!-- Services Section -->
     <section id="Services" class="services">
         <div class="services-heading">
-            <h2>Services</h2>
+            <h2>My Areas of Expertise</h2>
         </div>
         <div class="services-body">
             <!-- Audio Engineering -->
             <div class="Card" id="Audio-engineer-card">
-                <img src="assests/Audio-engineer.webp" alt="Audio Engineering Service Picture">
+                <img src="assests/Audio-engineer.webp" alt="Audio Engineering Service Picture" class="card-picture">
                 <h3>Audio Engineering</h3>
             </div>
             <div class="popup" id="Audio-engineer-popup">
@@ -73,14 +73,33 @@
                     <button class="close-button">&times;</button>
                 </div>
                 <div class="body">
-                    <p>From recording and mixing to mastering and sound design, I offer a range of audio engineering services to help you create high-quality audio content.</p>
-                    <p>Whether you’re a musician looking to produce your next album or a business in need of professional voiceovers, I can help you achieve your audio goals.</p>
+                    <div class="header">
+                        <div class="right-align">
+                            <img src="assests/Audio-engineer.webp" alt="Audio Engineering Service Picture" class="audio-engineer-popup-picture">
+                        </div>
+                        <div class="left-align">
+                            <p>Sound is more than just noise, it's an experience. As an Audio Engineer, I specialize in crafting high-quality audio that enhances your projects, whether it's music production, podcasts, live sound, post-production, or sound design.</p>
+                            <p>From recording and mixing to mastering and sound design, I offer a range of audio engineering services to help you create high-quality audio content.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Whether you’re a musician looking to produce your next album or a business in need of professional voiceovers, I can help you achieve your audio goals.</p>
+                        <p><u>What I Offer:</u></p>
+                        <ul class="bullets">
+                            <li>Mixing & Mastering – Achieve a balanced, professional sound for your music, voiceovers, or commercials.</li>
+                            <li>Podcast Editing – Clean, crisp, and engaging audio with noise reduction, leveling, and seamless transitions.</li>
+                            <li>Sound Design – Custom sound effects, Foley work, and immersive audio for games, films, and media.</li>
+                            <li>Live Sound Engineering – Expertly managing audio for live events, ensuring clarity and balance.</li>
+                            <li>Audio Restoration – Remove background noise, enhance clarity, and improve poor recordings.</li>
+                            <li>Voice Processing – Optimize vocal recordings for professional-grade narration, audiobooks, or radio.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             <!-- Graphic Designing -->
             <div class="Card" id="Graphic-designing-card">
-                <img src="assests/graphic-designing.avif" alt="Graphic Designing Service Picture">
+                <img src="assests/graphic-designing.avif" alt="Graphic Designing Service Picture" class="card-picture">
                 <h3>Graphic Designing</h3>
             </div>
             <div class="popup" id="Graphic-designing-popup">
@@ -96,7 +115,7 @@
 
             <!-- Event Organising -->
             <div class="Card" id="Event-organising-card">
-                <img src="assests/event-organising.png" alt="Event Organistaion Service Picture">
+                <img src="assests/event-organising.png" alt="Event Organistaion Service Picture" class="card-picture">
                 <h3>Event Organisation</h3>
             </div>
             <div class="popup" id="Event-organising-popup">
@@ -112,7 +131,7 @@
 
             <!-- Web Development -->
             <div class="Card" id="Web-development-card">
-                <img src="assests/web-dev.jpg" alt="Web Development Service Picture">
+                <img src="assests/web-dev.jpg" alt="Web Development Service Picture" class="card-picture">
                 <h3>Web Development</h3>
             </div>
             <div class="popup" id="Web-development-popup">
@@ -134,10 +153,34 @@
     <!-- Footer Section  -->
     <footer id="Contact">
         <div class="footer-heading">
-            <h2>Contact Me</h2>
+            <h2></h2>
         </div>
-        <div class="footer-email">
-            <h3>Email: keshwanieishal001@gmail.com | keshwanieishal@haeztec.com</h3>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/maneeyew" method="POST" id="form">
+                    <div class="contact-form-title">
+                        <p><b>Get in touch</b></p>
+                        <p class="contact-form-subheading">Let’s turn ideas into reality—drop <br> your details, and I’ll get back to you! 🚀</p>
+                    </div>
+                    <div class="contact-form-body">
+
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                        <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+                        <input type="hidden" name="access_key" value="74c6953e-6c9b-4e2b-a538-9bbf6045d319">
+                        <input type="text" name="Name" placeholder="Your Name" class="contact-input" required>
+                        <input type="email" name="Email" placeholder="Your Email" class="contact-input" required>
+                        <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+                        <button class="contact-form-submit-button" type="submit">Send</button>
+
+                        <div id="result" class="result"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-img">
+                <img src="assests/contact-us.png" alt="image">
+            </div>
         </div>
         <div class="footer-social-icons">
             <!-- <a href="https://facebook.com" target="_blank" aria-label="Facebook">
