@@ -49,3 +49,4 @@ This portfolio is designed to highlight my professional journey, skills, and ser
 
 ## 📂 Project Structure
 Here's a quick overview of the project files:
+Portfolio/ │ ├── index.html # The main HTML file ├── style.css # The CSS file for styling ├── main.js # The JavaScript file for interactivity
