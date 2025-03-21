@@ -217,9 +217,9 @@ header {
     min-height: 100vh;  
 }
 
-.home div:first-child {
+.home-heading {
     align-content: center;
-    margin-left: 40px;
+    justify-content: center;
 }
 
 .main-heading {
@@ -258,6 +258,13 @@ header {
     padding-right: 20%;
     text-align: center;
     font-size: 22px;
+}
+
+@media screen and (max-width:1000px) {
+    .about-text {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
 
@@ -302,7 +309,7 @@ header {
 }
 
 .Card {
-    margin: 0px 10px;
+    margin: 10px 10px;
     padding: 10px 10px 10px 10px;
     background-color: whitesmoke;
     perspective: 1000px;
@@ -413,10 +420,122 @@ header {
     pointer-events: all;
 }
 
-/* Contact Section Rules */
+@media screen and (max-width:1440px) {
+    .popup {
+        width: 750px;
+        max-width: 65%;
 
+    }
+}
 
-/* Footer Section Rules */
+@media screen and (max-width:1160px) {
+    .popup {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .popup {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .Card {
+        margin: 10px 10px;
+        padding: 10px 10px 10px 10px;
+        background-color: whitesmoke;
+        perspective: 1000px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 300px;
+    }
+
+    .Card h3 {
+        font-size: 1.5rem;
+    }
+
+    .Card img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .popup {
+        width:720px;
+        max-width: 80%;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .popup {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #Audio-engineer-popup .body img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .popup {
+        height: 95%;
+        max-height: 95%;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+    .popup.active {
+        transform: translate(-50%, -50%) scale(1);
+        transition: transform 200ms ease-in-out;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .Card {
+        width: 250px;
+        margin: 10px 10px;
+        padding: 10px 10px 10px 10px;
+        background-color: whitesmoke;
+        perspective: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .Card img {
+        width:250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .Card h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .Card {
+        width: 200px;
+    }
+
+    .Card img {
+        width:200px;
+        height: 200px;
+    }
+
+    .Card h3 {
+        font-size: 1.20rem;
+    }
+}
+
+/* Footer Section & Contact Section Rules */
 
 footer {
     min-height: 100vh;
@@ -545,4 +664,49 @@ footer {
     width: 45px;
     height: 45px;
     
+}
+
+@media screen and (max-width:1303px) {
+    .footer-img img {
+        width: 1000px;
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (max-width: 1012px) {
+    .contact-img {
+        display: none;
+    }
+
+    .contact-form-body {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-img img {
+        width: 900px;
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .footer-img img {
+        width: 700px;
+        margin-bottom: -70px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer-img img {
+        width: 500px;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-img img {
+        width: 327px;
+        margin-bottom: -30px;
+    }
 }

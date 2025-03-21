@@ -90,3 +90,11 @@ form.addEventListener('submit', function(e) {
             }, 3000);
         });
 });
+
+if (window.innerWidth < 768) {
+    const service = document.querySelector(".service-heading");
+
+    service.innerHTML = "My Expertise"
+} else {
+    service.innerHTML = "My Areas of Expertise"
+}
