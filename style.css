@@ -538,7 +538,7 @@ header {
 /* Footer Section & Contact Section Rules */
 
 footer {
-    min-height: 100vh;
+    height: fit-content;
     display: grid;
     justify-items: center;
     align-items: end;
