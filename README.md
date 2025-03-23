@@ -5,7 +5,7 @@ Welcome to my portfolio website! This project is a showcase of my skills, expert
 ---
 
 ## 🌐 Live Demo
-Check out the live version of this portfolio <a href="https://atomicbastoid.github.io/Portfolio/" target="blank" rel="noopener noreferrer" text-decoration=none style="text-decoration=none">here</a>.
+Check out the live version of this portfolio <a href="https://atomicbastoid.github.io/Portfolio/" target="blank" rel="noopener noreferrer" style="text-decoration:none;">here</a>.
 
 ---
 
